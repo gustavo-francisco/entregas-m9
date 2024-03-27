@@ -13,7 +13,7 @@ topic = "my/test/topic"
 username = os.getenv("HIVE_USER")
 password = os.getenv("HIVE_PSWD")
 
-conn = sqlite3.connect('dados.db')
+conn = sqlite3.connect('C:/Users/Inteli/Documents/GitHub/entregas-m9/Ponderada 5/metabase-data/dados.db')
 cursor = conn.cursor()
 
 def on_connect(client, userdata, flags, reason_code, properties):
