@@ -1,0 +1,10 @@
+[
+    {
+        "sensor1": "co2",
+        "value": 3
+    },
+    {
+        "sensor2": "no2",
+        "value": 4
+    }
+]
